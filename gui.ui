@@ -60,7 +60,7 @@
     <string notr="true">buttonGroup</string>
    </attribute>
   </widget>
-  <widget class="QSlider" name="horizontalSlider">
+  <widget class="QSlider" name="speedSlider">
    <property name="geometry">
     <rect>
      <x>30</x>
@@ -125,7 +125,7 @@
  <resources/>
  <connections>
   <connection>
-   <sender>horizontalSlider</sender>
+   <sender>speedSlider</sender>
    <signal>valueChanged(int)</signal>
    <receiver>label</receiver>
    <slot>setNum(int)</slot>

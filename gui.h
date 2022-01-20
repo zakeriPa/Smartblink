@@ -10,9 +10,9 @@ class Gui : public QWidget, private Ui::Gui
 public:
     explicit Gui(QWidget *parent = nullptr);
 private slots:
-    void on_horizontalSlider_valueChanged(int value);
-    void on_blinkButton_clicked(bool checked);
-    void on_lauflichtButton_clicked(bool checked);
+    void on_speedSlider_valueChanged(int value);
+    void on_blinkButton_clicked();
+    void on_lauflichtButton_clicked();
 };
 
 #endif // GUI_H
